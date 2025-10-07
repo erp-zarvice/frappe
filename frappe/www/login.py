@@ -153,7 +153,8 @@ def send_login_link(email: str):
 		frappe.get_website_settings("app_name") or frappe.get_system_settings("app_name") or _("Frappe")
 	)
 
-	subject = _("Login To {0}").format(app_name)
+	# subject = _("Login To {0}").format(app_name)
+	subject = _("Login To {0}").format("Edarmor")
 
 	frappe.sendmail(
 		subject=subject,
