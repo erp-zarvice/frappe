@@ -1,7 +1,7 @@
 [project]
 name = "frappe"
 authors = [
-    { name = "Frappe Technologies Pvt Ltd", email = "developers@frappe.io"}
+    { name = "Edarmor Innovations Pvt. Ltd", email = "contact@edarmor.com"}
 ]
 description = "Metadata driven, full-stack low code web framework"
 requires-python = ">=3.10,<3.14"
@@ -94,8 +94,8 @@ dependencies = [
 
 [project.urls]
 Homepage = "https://frappeframework.com/"
-Repository = "https://github.com/frappe/frappe.git"
-"Bug Reports" = "https://github.com/frappe/frappe/issues"
+Repository = "https://github.com/erp-zarvice/frappe.git"
+"Bug Reports" = "https://github.com/erp-zarvice/frappe/issues"
 
 [project.optional-dependencies]
 dev = [

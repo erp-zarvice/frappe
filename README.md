@@ -7,7 +7,7 @@
 
 <div align="center">
 	<a target="_blank" href="LICENSE" title="License: MIT"><img src="https://img.shields.io/badge/License-MIT-success.svg"></a>
-	<a href="https://codecov.io/gh/frappe/frappe"><img src="https://codecov.io/gh/frappe/frappe/branch/develop/graph/badge.svg?token=XoTa679hIj"/></a>
+	<a href="https://codecov.io/gh/erp-zarvice/frappe"><img src="https://codecov.io/gh/erp-zarvice/frappe/branch/develop/graph/badge.svg?token=XoTa679hIj"/></a>
 </div>
 <div align="center">
 	<img src=".github/hero-image.png" alt="Hero Image" />
@@ -21,13 +21,15 @@
 ## Frappe Framework
 Full-stack web application framework that uses Python and MariaDB on the server side and a tightly integrated client side library. Built for ERPNext.
 
+This version is maintained by Edarmor Innovations Pvt. Ltd. for enterprise use.
+
 ## Philosophy
 
 > The best code is the one that is not written
 
 Started in 2005, Frappe Framework was inspired by the Semantic Web. The "big idea" behind semantic web was of a framework that not only described how information is shown (like headings, body etc), but also what it means, like name, address etc.
 
-By creating a web framework that allowed for easy definition of metadata, it made building complex applications easy. Applications usually designed around how users interact with a system, but not based on semantics of the underlying system. Applications built on semantics end up being much more consistent and extensible. 
+By creating a web framework that allowed for easy definition of metadata, it made building complex applications easy. Applications usually designed around how users interact with a system, but not based on semantics of the underlying system. Applications built on semantics end up being much more consistent and extensible.
 
 The first application built on Framework was ERPNext, a beast with more than 700 object types. Framework is not for the light hearted - it is not the first thing you might want to learn if you are beginning to learn web programming, but if you are ready to do real work, then Framework is the right tool for the job.
 
@@ -78,7 +80,7 @@ Prerequisites: docker, docker-compose, git. Refer [Docker Documentation](https:/
 Run following commands:
 
 ```
-git clone https://github.com/frappe/frappe_docker
+git clone https://github.com/erp-zarvice/frappe_docker
 cd frappe_docker
 docker compose -f pwd.yml up -d
 ```
@@ -122,18 +124,15 @@ To setup the repository locally follow the steps mentioned below:
 
 ## Contributing
 
-1. [Issue Guidelines](https://github.com/frappe/erpnext/wiki/Issue-Guidelines)
-1. [Report Security Vulnerabilities](https://frappe.io/security)
-1. [Pull Request Requirements](https://github.com/frappe/erpnext/wiki/Contribution-Guidelines)
+1. [Issue Guidelines](https://github.com/erp-zarvice/frappe/issues)
+1. [Report Security Vulnerabilities](https://edarmor.com/security)
+1. [Pull Request Requirements](https://github.com/erp-zarvice/frappe/pulls)
 2. [Translations](https://crowdin.com/project/frappe)
 
 <br>
 <br>
 <div align="center">
-	<a href="https://frappe.io" target="_blank">
-		<picture>
-			<source media="(prefers-color-scheme: dark)" srcset="https://frappe.io/files/Frappe-white.png">
-			<img src="https://frappe.io/files/Frappe-black.png" alt="Frappe Technologies" height="28"/>
-		</picture>
+	<a href="https://edarmor.com" target="_blank">
+		<p>Maintained by Edarmor Innovations Pvt. Ltd.</p>
 	</a>
 </div>
