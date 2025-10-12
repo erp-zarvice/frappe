@@ -4,14 +4,15 @@ from . import __version__ as app_version
 
 app_name = "frappe"
 app_title = "Frappe Framework"
-app_publisher = "Frappe Technologies"
+app_publisher = "Edarmor Innovations Pvt. Ltd"
 app_description = "Full stack web framework with Python, Javascript, MariaDB, Redis, Node"
 app_license = "MIT"
 app_logo_url = "/assets/frappe/images/frappe-framework-logo.svg"
 develop_version = "15.x.x-develop"
 app_home = "/app/build"
+source_link = "https://github.com/erp-zarvice/frappe"
 
-app_email = "developers@frappe.io"
+app_email = "contact@edarmor.com"
 
 before_install = "frappe.utils.install.before_install"
 after_install = "frappe.utils.install.after_install"
